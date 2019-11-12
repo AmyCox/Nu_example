@@ -1,0 +1,52 @@
+@import 'base/banner';
+@import 'base/preloader';
+
+.logo, .overlay, .background, .cta, .subheading {
+  position: absolute;
+  width: $banner-width;
+  height: $banner-height;
+}
+
+.copy {
+  z-index: 444;
+  position: absolute;
+  width: $banner-width;
+  height: $banner-height;
+}
+
+
+.one {
+  z-index: 111;
+}
+
+.two {
+  z-index: 222;
+}
+
+.three {
+  z-index: 333;
+}
+
+.four {
+  z-index: 444;
+}
+
+.five {
+  z-index: 555;
+}
+
+.six {
+  z-index: 666;
+}
+
+.seven {
+  z-index: 777;
+}
+
+.eight {
+  z-index: 888;
+}
+
+.nine {
+  z-index: 999;
+}
